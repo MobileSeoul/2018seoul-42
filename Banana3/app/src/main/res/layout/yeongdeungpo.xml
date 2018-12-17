@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 생활쓰레기 배출요령"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="27sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 시간 및 장소"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 20:00 ~ 24:00"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 내집 내점포 앞"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 토요일, 명절연휴기간은 배출하지 않습니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 규격봉투 배출요령"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 규격봉투 속에 음식물쓰레기, 재활용품등 넣지 말고 순수한 생활쓰레기만 넣어 주시기 바랍니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 종량제봉투 묶음선 이하로 담아 묶어 주시고 스카치테이프 사용을 자제 하시기 바랍니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 음식물쓰레기는 물기를 제거한 후 거점용기에 배출합니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 위반시 조치사항 "
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 쓰레기 배출시간 미준수 및 규격봉투를 사용하지 않고 배출하여 적발시는 100만원 이하의 과태료가 부과됩니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 생활쓰레기 종량제 규격봉투"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="27sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 규격봉투의 종류"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 가정용 봉투 : 일반주택"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 영업용 봉투 : 사무실 또는 영업장"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 특수규격봉투(마대) : 깨진 유리, 폐페인트통, 폐타이어, 장판, 고무, 가죽 등 일반규격봉투에 담기 어려운 쓰레기"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 규격봉투 가격"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ydp1"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 음식물쓰레기 배출요령"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="27sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 일반 가정에서 음식물쓰레기 배출방법 "
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/ydp2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 음식점에서 음식물쓰레기 배출방법 "
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 일반 소규모 점포(200㎡ 미만 음식점 및 일반 사업장)"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/ydp3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 다량 배출 사업장"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:src="@drawable/ydp4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ 다량 배출 사업장(200㎡ 이상 음식점)은 처리업체(농장)와 처리 계약을 한 후, 구청에 반드시 다량배출(음식물류 폐기물 발생억제 및 처리계획)을 신고하고 매년 초에 감량 실적을 제출해야만 한다."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 음식물쓰레기 종량제 규격봉투"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="27sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 일반(단독)주택에서는 규격봉투 판매소에서 판매하는 음식물쓰레기 종량제 규격 봉투에 음식물쓰레기를 규격 봉투째 버려야 합니다."
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 음식물쓰레기 종량제 규격봉투 가격"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ydp5"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 대형폐기물"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="27sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 대형폐기물 신청절차"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 인터넷신청"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="배출신청 접수 -> 결제 -> 폐기물 배출 -> 폐기물 수거"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 동주민센터 방문신청"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="방문신고서에 의거 배출 신고 및 수수료 납부 -> 신고서 접수 후 수수료 징수 및 스티커 발부 -> 신청자는 대형폐기물에 스티커 부착하여 배출"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 대형폐기물 신청절차"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 주방용품류 : 씽크대, 쌀통 등"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 가구류 : 장롱, 문갑, 쇼파, 침대 등"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 사무용 학습기기류 : 책상, 책꽂이 등"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 기타 생활용품류 : 유모차, 보행기, 액자, 자전거 등"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 대형생활폐기물(폐소형가전) 수수료 면제 품목 31종"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="wrap_content"
+            android:layout_height="290dp"
+            android:src="@drawable/ydp6" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 대형생활폐기물(대형폐가전) 무상수거 품목"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ydp7"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 대형생활폐기물 신청 전 유의사항"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 생산자 책임 재활용 제도의 활용"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이용방법 : 생산자 책임 재활용 대상 품목은 소비자가 새 제품을 구입할 때 판매업자가 제조회사와 관계없이 기존 제품을회수해야 할 의무가 있으므로 수거해 가도록 요청.(무상회수 의무 위반시 과태료: 300만원 부과)"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="판매자의 수거 범위 : 신품은 구매시 소비자가 동종의 기존폐품수거를 요구하는 경우(무보상, 무수수료)"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="대상품목 : TV, 냉장고, 세탁기, 컴퓨터, 오디오, 에어컨, 이동전화기, 프린터, 팩시밀리, 복사기"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 재활용이 가능한 것일 경우"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="영등포구 재활용센터로 연락후 상담"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="재활용센터(신관) 서울시 영등포구 당산동 3가 407번지"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="☏ 02-2675-7289,\n  FAX: 02-2671-7289"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"
+            android:autoLink="phone"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="재활용센터(제2관) 서울시 영등포구 신길6동 3937-10"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="☏ 836-7289, FAX: 845-7282"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"
+            android:autoLink="phone"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 재활용이 불가능한 것일 경우"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="관할 동주민센터 혹은 우리구 홈페이지상에서 대형폐기물의 종류에 따라 배출신고"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="수수료 납부(결제)하고 스티커를 구입하여 대형폐기물에 부착한 후 배출 지정일시에 배출하면 됩니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 기타 사항"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="청소과 자원재활용팀\n(☏ 02-2670-3488)로 문의"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"
+            android:autoLink="phone"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 소형가전제품 배출방법"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 단독주택: 일반 재활용품 배출할 때 함께 배출"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 공동주택: 재활용품 분리수거함 옆에 별도 전용수거함(포대)에 배출"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ 원형이 훼손되지 않은 경우 무상 수거"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 수거 비용 검색"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ [ 수거 비용 검색 바로가기 ]"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColorLink="@color/blue" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ 출처\n [ 영등포구청 홈페이지 바로가기 ]"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"
+            android:textColorLink="@color/blue" />
+    </LinearLayout>
+</ScrollView>

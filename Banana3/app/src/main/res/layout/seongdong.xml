@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 일반생활쓰레기 배출방법"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="27sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 시간"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 저녁 8시 ~ 12시"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 장소"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 일반주택 및 사무실 : 거주(영업)하시는 가정(건물) 앞"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 아파트 : 아파트별로 지정된 장소"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 쓰레기 동별 배출 요일"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/black"
+            android:padding="1.5dp">
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="행정동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="배출 요일"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="금호 1가동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="월, 수, 금"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="금호 2가동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="월, 수, 금"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="금호 3가동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="화, 목, 일"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="금호 4가동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="월, 수, 금"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="마장동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="화, 목, 일"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="사근동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="월, 수, 금"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="성수 1가 1동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="월, 수, 금"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="성수 1가 2동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="월, 수, 금"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="성수 2가 1동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="화, 목, 일"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="성수 2가 3동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="월, 수, 금"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="송정동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="화, 목, 일"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="옥수 1동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="화, 목, 일"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="옥수 2동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="월, 수, 금"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="왕십리 2동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="화, 목, 일"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="왕십리도선동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="화, 목, 일"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="용답동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="화, 목, 일"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="응봉동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="월, 수, 금"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="행당 1동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="월, 수, 금"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="행당 2동"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="월, 수, 금"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 음식물쓰레기 배출방법"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="27sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 방법"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 일반주택 및 사무실, 공장"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.3"
+            android:text="각 동별로 정해진 배출일에 거주지역 청소대행업체의 종량제 봉투를 사용하여 각 가정(영업장)에 비치된 음식물 수거 전용용기에 담은 후 저녁 8시 ~ 12시에 각 가정 대문앞에 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 아파트"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="아파트별로 지정된 일시 및 장소에 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 소형음식업소 등(매장면적 200㎡미만)"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.3"
+            android:text="수거 대행업체에서 납부필증을 구입하여 업소용 음식물수거 전용용기에 부착 후 각 동별 정해진 배출요일 저녁 8시 ~ 12시에 내 점포 앞에 배출 (2016.6.1.~ 납부필증 종량제 시행)"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.3"
+            android:text="· 다량배출사업장(매장면적 200㎡이상)"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="처리업체(농장)와 계약하거나 자체처리하여야 합니다."
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 재활용품/재활용불가품목"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="27sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 방법"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 일반주택 및 사무실, 공장"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="저녁 8시~12시에 아래의 배출요령을 준수하여 각 가정(영업장) 대문 앞에 배출(매일수거)"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 아파트"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="각 아파트별 지정된 일시 및 장소에 아래의 배출요령을 준수하여 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 요령"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 병, 캔, 합성수지, 고철(소량)은 반드시 투명한 봉투에 일정량 이상(30ℓ) 모아서 배출"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 종이류는 3㎏이상 모아 종이상자에 담거나 끈으로 묶어서 배출"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 비닐류, 필름류도 각각 30ℓ이상 모아 투명한 비닐에 넣거나 묶어서 배출"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 소량의 건축 폐기물"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 5톤미만의 소량의 건설폐기물(공사장생활폐기물)은 배출시 종류별·성상별로 구분하여 특수규격마대에 담아 배출하여야 합니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 재사용 가능 가구류"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="27sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 생산자 책임 재활용제도(EPR) 및 품목별 배출 방법"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 재활용이 가능한 폐기물의 일정량 이상을 재활용하도록 생산자에게 의무를 부여하고, 재활용 의무를 이행하지 못할 경우 실제 재활용에 소요되는 비용 이상을 생산자로부터 징수하는 제도입니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 재사용 불가능 가구류 등 대형폐기물"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="27sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출방법"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 동주민센터 방문"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="거주지 관할 동주민센터를 직접 방문하여 폐기하려는 품목에 해당하는 대형생활폐 기물 수수료 스티커를 구입하여 배출하실 폐기물에 부착한 후 각 동마다 지정된 배출일시를 준수 하여 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 구청홈페이지 이용"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="구청 인터넷 홈페이지에 신고 후 배출(신용카드 또는 계좌이체로 지불)"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 종량제봉투 가격/판매처"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="27sp"
+            android:padding="10dp"/>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:src="@drawable/seongdong1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 대형생활폐기물"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="27sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 품목"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ [ 배출품목 보기 ]"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 대형폐가전 무상방문 수거 서비스 예약"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전화문의 : ☏ 1599-0903"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="인터넷 문의 : http://www.15990903.or.kr"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ※ 원형보존(부품 포함)이 안 된 대형폐가전은 스티커를 구매·부착하여 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 수수료면제 품목 배출방법"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 소형가전 배출방법"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="단독주택 : 일반 재활용품 배출할 때 함께 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="공동주택 : 재활용품 분리수거함 옆에 별도 전용수거함(포대)에 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 폐휴대폰 기부방법"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전용수거함이 비치된 동주민센터나 아파트 경비실(또는 지정장소)로 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="동 주민센터나 청소행정과(02-2286-5545)로 연락주시면 빠른처리가 가능합니다"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"
+            android:autoLink="phone"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 시 유의사항"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 배출시간및 장소 : 저녁8시 이후 건물 밖으로 배출"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 과소 신고한 경우 수거하지 않습니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 대형생활폐기물을 신고 없이 무단배출 하시면 과태료(100만원 이하)가 부과됩니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 중복인쇄 또는 환불된 납부필증을 재사용하여 배출한 폐기물은 수거하지 않으며, 무단투기로 간주되어 과태료가 부과됩니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 반드시 출력물을 부착하여 지정하신 배출일을 지켜 배출하여 주십시오. 지정하신 배출일에 배출하지 않을 시 수거되지 않을 수 있습니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 배출일을 변경하고자 하는 경우 담당자에게 연락하시기 바랍니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 수거 일시 안내"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 지정하신 배출일시 익일 새벽에 수거되며, 상황에 따라 수거가 지연될 수 있습니다. "
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 일요일에는 수거하지 않습니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 공동주택 수거요일은 이곳을 눌러 확인하시기 바랍니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 환불 안내"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 수거된 폐기물은 환불이 불가능합니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 카드결제 시에는 신청날짜로부터 7일 이내, 계좌이체 시에는 9일 이내에 환불요청하셔야 환불이 가능합니다. "
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 대형생활폐기물 스티커를 출력한 이후에는 출력물을 가까운 동주민센터 또는 구청으로 반납하셔야 환불이 가능합니다."
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="※ 출처 \n[성동구청 홈페이지 바로가기]"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

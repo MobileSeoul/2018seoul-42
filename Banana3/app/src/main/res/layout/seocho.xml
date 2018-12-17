@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView338"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="◎ 생활쓰레기"
+            android:textColor="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView339"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="2dp"
+            android:text="▶ 쓰레기 배출안내"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:singleLine="false"
+                    android:text="일, 화, 목 배출"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:text="월, 수, 금 배출"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="방배본,1동, 반포2,3동,\n 내곡동(헌인마을)"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="잠원동, 방배4동\n반포4동(반포대로 서편-서래마을 방면)"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="서초2동, 서초4동"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="서초1동, 방배3동"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="양재1동(우면동),\n반포본동"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="양재2동(원지동)"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="방배2동"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="반포1동, 반포4동\n(반포대로 동편-미도아파트 방면)"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="서초3동(반포대로\n동편-남부터미널 방면)\n내곡동(헌인마을 제외),\n염곡동, 신원동"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="서초3동(반포대로\n서편-서울고 방면)"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView341"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="2dp"
+            android:text="▶ 일반 쓰레기 종량제 규격봉투 판매가격"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:text="구 분"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:text="가정용\n(흰색 반투명)"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="2 L"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="60원\n(재사용봉투 포함)"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="5 L"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="130원"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="10 L"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="250원\n(재사용봉투 포함)"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="20 L"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="490원\n(재사용봉투 포함)"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="50 L"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="1,250원"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView354"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="◎ 음식물쓰레기"
+            android:textColor="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView349"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="2dp"
+            android:text="▶ 배출요일 및 시간"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView356"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoLink="all"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="55dp"
+            android:paddingTop="2dp"
+            android:text="월 ~ 금요일 ( 저녁8시 ~ 새벽 5시 배출)"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView357"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="2dp"
+            android:text="▶ 배출방법"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView358"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoLink="all"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="55dp"
+            android:paddingTop="2dp"
+            android:text="- 단독주택 : 음식물 종량제 봉투에 넣어서 거점 수거용기에 배출\n- 공동주택 : 단지 내 전용수거용기에 배출"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView355"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="2dp"
+            android:text="▶ 음식물 쓰레기 전용봉투 판매가격"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:text="용 량"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:text="가 격(원)"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="1 L"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="100원"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="2 L"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="200원"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="3 L"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="300원"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="5 L"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="500원"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="10 L"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="1,000원"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="20 L"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="2,000원"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView359"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="10dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="5dp"
+            android:text="※ 종량기 및 감량기 배출 수수료 : 130원/kg"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView360"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="◎ 대형폐기물"
+            android:textColor="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView361"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="2dp"
+            android:text="▶ 신고 및 배출방법"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/seocho1" />
+
+        <TextView
+            android:id="@+id/textView362"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="2dp"
+            android:text="▶ 지역별 대행업체"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:src="@drawable/seocho2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView350"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.3"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="[대형 폐기물 신청 바로가기]"
+                android:textColor="@android:color/black"
+                android:textColorLink="@color/blue" />
+
+            <TextView
+                android:id="@+id/textView351"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.3"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="[품목별 수수료 다운로드]"
+                android:textColor="@android:color/black"
+                android:textColorLink="@color/blue" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView363"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="10dp"
+            android:text="▶ 폐가전제품 무상방문"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView364"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoLink="all"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="55dp"
+            android:paddingTop="2dp"
+            android:text="- 4대 가전(TV, 냉장고, 세탁기, 에어컨) 및 공기청정기, 전자렌지 등\n- 배출 예약 : ☎ 1599-0903\n( www.edtd.co.kr )"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView365"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="10dp"
+            android:text="▶ 소형폐가전제품 무상수거"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView366"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoLink="all"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="55dp"
+            android:paddingTop="2dp"
+            android:text="- 아파트 : 단지 내 설치한 수집용 거치대에 배출\n- 주택 : 재활용쓰레기 배출일에 함께 배출"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView367"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="※ 출처 \n[서초구청 홈페이지 바로가기]"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,1664 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 생활쓰레기 배출"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 배출 요일"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="일요일 ~ 금요일(토요일 제외)"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 배출 시간"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="주거 지역 : 18:00부터 24:00까지"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="가로 지역 : 22:00부터 익일 01:00까지"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 배출 장소"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="내 집 앞, 내 점포 앞 지정장소"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 배출 방법"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="종량제 규격봉투 사용"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 종량제 규격봉투 판매가격(단위 : 원)"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/black"
+            android:padding="1.5dp">
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="구분"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="6dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="일반용"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="6dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="음식물용"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="6dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    />
+            </TableRow>
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="190"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="300"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="130"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="250"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20L(재사용 포함)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="490"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="740"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1,250"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="75L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1,880"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2,500"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="특수(PP마대) 10L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1,020"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="특수(PP마대) 20L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2,040"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="특수(PP마대) 50L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5,100"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 음식물 납부필증 가격(단위 : 원)"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/black"
+            android:padding="1.5dp">
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="구분"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="6dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="소형음식점"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="6dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="공동주택"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="6dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1,400"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2,800"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="60L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8,400"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/gray">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="120L"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="16,800"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12,000"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 음식물쓰레기 분리배출"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출방법"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="최대한 수분 제거후 음식물 전용 규격봉투에 넣어 전용수거용기에 담아 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ 음식물쓰레기를 분리배출하지 않거나 이물질을 혼합 배출할 경우 20만원 이하의 과태료부과"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 무단투기 단속대상"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="· 비규격 봉투에 담아서 배출하는 행위"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:padding="5dp"
+        android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-> 10만원(1차위반), 20만원(2차위반), 30만원(3차위반)"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 대형폐기물을 신고하지 않고 투기하는 경우"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-> 10만원 ~ 30만원"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 차량을 이용하여 무단 투기하는 행위"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-> 20만원 ~ 50만원"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 규격봉투 정일·정시 배출 위반시"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-> 5만원"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 폐기물을 종류, 성상별로 분리하지 않고 배출시"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-> 10만원 ~ 30만원"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 생활폐기물 불법소각시"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-> 20만원 ~ 50만원"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 집수리 건축폐기물을 미신고 후 방치시"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-> 고발 대상"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 소형 폐가전제품"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 대상 품목"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="다리미\n선풍기\n전화기\n청소기\n카세트라디오\n탈수기\n헤어드라이어\n가습기\n난로(전기, 벽걸이)\n에어컨 실외기\n가스레인지\n녹즙기\n믹서기\n식기건조기\n세척기\n전기밥통\n전자레인지\n커피포트\n노트북\n컴퓨터(모니터, 키보드, 본체)\n타자기\n프린터\n복합기\n스캐너\n팩시밀리\n모뎀\n전기히터\n시계\n오락기\n오디오(본체, 스피커)\n정수기\n공기청정기\n가스오븐레인지\n폐휴대폰 등"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ 위 품목과 유사한 전자제품은 모두 해당됩니다."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 방법"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 단독주택 : 재활용정거장 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 공동주택 : 폐소형가전 수거함에 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ 다량배출시 관할 동주민센터에 전화주시면 수거해드립니다."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 비용"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="무상"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 대형 생활 폐기물 배출 절차"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 대형생활 폐기물 종류 확인"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 장롱, 책상, 쇼파, 침대 등 각종 가구류"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 기타 침구류, 자전거 등 생활용품류"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ 대형생활폐기물이란 장롱, 쇼파, 책상, 피아노, 가구류 등으로 규격봉투에 담기 어려운 폐기물을 말하며, 대형폐기물의 품목과 수집 운반 수수료는 관악구 폐기물 관리 조례로 규정하고 있습니다. "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 재활용 가능 여부 확인"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 재활용이 가능한 것일 경우\n관악구 재활용센터(02-886-9113)로 연락, 재활용 가능여부에 따라 무상수거"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="phone"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 재활용이 가능하지 않는 경우\n관할 주민센터 혹은 우리구 홈페이지상에서 배출신고 후 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 대형생활폐기물 신청"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ [대형폐기물 인터넷처리 바로가기]"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 방법"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 배출 요일 : 일요일 ~ 금요일(※ 토요일 제외)"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 배출시간 : 18시 ~ 24시까지"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 배출장소 : 내 집 앞"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ 폐기물 무단폐기할 경우 : 100만원 이하의 과태료 부과"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 온라인 신청시 유의사항"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 유의사항"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 배출신청은 24시간 어느시간에 신청하셔도 가능합니다"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 마지막에 나오는 출력물(신고필증)을 반드시 출력 또는 종이에 기재하여 폐기물에 부착하여 주십시오"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 환불 유의사항"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 동 주민센터 방문접수건 : 신고필증을 지참하여 해당 동 주민센터 직접 방문"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 인터넷 접수건 : 청소행정과(☎02-879-6207) 유선통화 후 환불 신청"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="phone"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ 환불신청은 수거 전에만 가능합니다"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 품목별 수거기준 및 비용"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ [품목별 수수료 보기]"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 대형 폐가전 제품"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 대상 품목"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 대형가전(TV, 냉장고, 세탁기, 에어컨 등)"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 수거 방법"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 상시 및 방문수거"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 예약 방법"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 인터넷(www.edtd.co.kr) 또는 콜센터 전화예약(1599-0903)"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 비용"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 무상"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 수거 시간"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 월 ~ 토(08:00 ~ 20:00)"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 제품 훼손시 대형폐기물 수수료납부 후 배출"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ex) 냉장고 콘프레셔 부품이 없거나, TV 브라운관 훼손, 제품원형인식 불가시"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ EPR(생산자책임 재활용제도)"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 생산자책임 재활용제도는 제품의 생산자나 포장재를 이용한 제품의 생산자에게 의무를 부과하여 재활용 하게하고 이를 이행치않을 경우 재활용에 소요되는 비용 이상의 부과금을 생산자에게 부과하는 제도"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 대상 제품"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 포장 비닐류, 전자제품"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ 전자제품 : 냉장고, 세탁기, 에어컨, TV, 컴퓨터, 휴대폰, 오디오, 프린터, 복사기"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출 요령"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 포장비닐류 : 내용물을 깨끗이 비우고 이물질과 물기를 제거한 후 묶거나 투명 봉투에 담아서 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 전자제품 : 신제품 구입 시 판매자에게 폐 제품 수거요구(무상)하거나 동주민센터에 수수료 납부 후 스티커 부착 배출"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◈ 관악구 재활용센터"
+            android:textColor="@color/cornflower_blue"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 운영 내용"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 재활용 가능 자원의 유·무상 수거, 수리 및 매매"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ 재판매 불가능한 물품일 경우 대형폐기물로 신고"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 취급 품목"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 냉장고, 세탁기, TV, 가구, 책상, 침대, 의류, 장난감 등"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 봉천점"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 관악구 남부순환로 1663 (은천동)"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:id="@+id/textView205"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:padding="5dp"
+            android:text="·   (☎02-883-0858)"
+            android:textColor="@color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 신림점"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="· 관악구 남부순환로 1494 (미성동)"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="·   (☎02-842-8425)"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:autoLink="all"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ [관악구청 홈페이지 바로가기]"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColorLink="@color/blue"/>
+    </LinearLayout>
+</ScrollView>

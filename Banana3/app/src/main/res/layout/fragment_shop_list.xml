@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="@android:color/background_light"
+    android:weightSum="20"
+    >
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="내 주변 판매처 상세보기"
+        android:textSize="20dp"
+        tools:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <TextView
+        android:id="@+id/textView371"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="※ 판매소정보는 제공받은 DB에 따라 모든 판매소가 반영되지 않을 수 있습니다."
+        android:textColor="@android:color/background_dark"
+        android:layout_marginHorizontal="5dp"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="409dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_weight="17"
+        android:background="@android:color/background_light"
+        android:choiceMode="singleChoice"
+        android:divider="#ffcc22"
+        android:dividerHeight="1.5dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:text="돌아가기"
+        android:background="@drawable/button_background"/>
+</LinearLayout>

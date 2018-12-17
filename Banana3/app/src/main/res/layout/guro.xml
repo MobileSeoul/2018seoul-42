@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 배출 요일"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="지역별 (일, 화, 목) 또는 (월, 수, 금)"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="쓰레기 배출방법에 대한 자세한 안내 ARS 서비스"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="☎ 080-959-9574"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="0dp"
+            android:layout_marginLeft="20dp"
+            android:autoLink="phone"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 배출 시간"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="저녁 8시 ~ 12시"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 대형폐기물"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ 배출기준 및 신고요령"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⊙ 신청방법"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="18dp"
+            android:lineSpacingExtra="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="구로구청 홈페이지를 통해 신청"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_marginLeft="21dp"
+            android:lineSpacingExtra="5dp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ [대형생활폐기물수거신청 바로가기]"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:padding="5dp"
+            android:layout_marginLeft="21dp"
+            android:lineSpacingExtra="5dp"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⊙ 배출기준 및 수수료"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_marginLeft="18dp"
+            android:lineSpacingExtra="5dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ [배출 품목 규격 및 부과금액 바로가기]"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:padding="5dp"
+            android:layout_marginLeft="18dp"
+            android:lineSpacingExtra="5dp"
+            android:textColorLink="@color/blue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 대형가전제품 무상수거 안내"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/guro1"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="※ 출처\n[구로구청 홈페이지 바로가기]"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="18dp"
+            android:lineSpacingExtra="5dp"
+            android:textColorLink="@color/blue"
+            />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView340"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="◎ 생활쓰레기"
+            android:textColor="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView369"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="2dp"
+            android:text="▶ 배출시간 및 장소"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView370"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="55dp"
+            android:paddingTop="2dp"
+            android:text="일몰 후부터 23시까지 내 집앞, 내 점포앞 배출"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:text="월, 수, 금"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:text="화, 목, 일"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView404"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="목1,2,4동\n신월3,5,6동\n신정2,3,7동"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textView403"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/background_light"
+                    android:gravity="center"
+                    android:text="목3,5동\n신월1,2,4,7동\n신정1,4,6동\n신정3동 신정이펜하우스\n1단지 ~ 5단지"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView374"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="2dp"
+            android:text="▶ 종량제 봉투가격"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:text="분류구분"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:text="생활쓰레기\n(가정용)"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textView379"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:gravity="center"
+                    android:text="음식물쓰레기\n(가정용)"
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView392"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="1 L"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView390"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="2 L"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView378"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="3 L"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView377"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="5 L"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView375"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="10 L"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView415"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="20 L"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView414"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="30 L"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView402"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="50 L"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView401"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="75 L"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView400"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="100 L"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView384"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView383"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView382"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView381"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="130원"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView380"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="250원"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView420"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="490원"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView419"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="740원"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView418"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="1,250원"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView417"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="1,880원"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView416"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="2,500원"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView389"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="100원"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView388"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="190원"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView387"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="300원"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView386"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="500원"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView385"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="1,000원"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView425"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="2,000원"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView424"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView423"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView422"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textView421"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/background_light"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView426"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="◎ 음식물쓰레기"
+            android:textColor="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView427"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="2dp"
+            android:text="▶ 배출 방법"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView428"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoLink="all"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="55dp"
+            android:paddingTop="2dp"
+            android:text="- 단독주택 : 음식물 종량제 봉투에 넣어서 전용용기에 담아 배출(전용용기는 주민센터에서 무상배포)\n- 공동주택 : 단지 내 전용수거용기에 배출"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView429"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="◎ 대형폐기물"
+            android:textColor="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView430"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="2dp"
+            android:text="▶ 배출 신고 방법"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView431"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoLink="all"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="55dp"
+            android:paddingTop="2dp"
+            android:text="배출신고 -> 신고자정보입력 -> 배출일시 및 장소입력 -> 배출내역(폐기물 규격 및 금액선택) -> 신용카드 및 계좌이체 -> 신고필증 출력 가능  -> 신고내역 조회"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView350"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.3"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="[ 대형 폐기물 신청 바로가기 ]"
+                android:textColor="@android:color/black"
+                android:textColorLink="@color/blue" />
+
+            <TextView
+                android:id="@+id/textView351"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.3"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="[품목별 수수료 보기]"
+                android:textColor="@android:color/black"
+                android:textColorLink="@color/blue" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView432"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="2dp"
+            android:text="▶ 대형 폐가전제품 무상수거"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView434"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoLink="all"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="55dp"
+            android:paddingTop="2dp"
+            android:text="- 수거일 및 시간 : 월 ~ 토(08:00 ~ 20:00)\n- 인터넷 신청 : http://www.edtd.co.kr\n- 전화 신청 : 콜센터 (1599-0903) 신청"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView436"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="37dp"
+            android:paddingTop="2dp"
+            android:text="▶소형 폐가전제품 무상수거"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView437"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="55dp"
+            android:paddingTop="2dp"
+            android:text="- 대상 품목"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView446"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="55dp"
+            android:paddingTop="2dp"
+            android:text="[ 품목 다운로드 ]"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView438"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="2dp"
+            android:paddingLeft="55dp"
+            android:paddingTop="2dp"
+            android:text="- 배출신청 : 해당 대행업체 신고(단, 소형가전제품 33종에 속하지 않은 품목은 수수료 납부처리"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView435"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="10dp"
+            android:paddingLeft="55dp"
+            android:paddingTop="2dp"
+            android:text="※ 수거정보보기 : [ 수거정보 바로가기 ]"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue" />
+
+        <TextView
+            android:id="@+id/textView447"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="※ 출처 \n[ 양천구청 홈페이지 바로가기 ]"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/blue"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>
